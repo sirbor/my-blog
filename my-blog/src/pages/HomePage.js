@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const HomePage = () => (
+export const HomePage = () => {
+  return (
     <>
     <h1>Hello, welcome to my blog!</h1>
     <p>
@@ -28,6 +29,7 @@ const HomePage = () => (
         consequat quam. Vivamus accumsan dui in facilisis aliquet.,
     </p>
     </>
-);
+  )
+}
 
 export default HomePage;
